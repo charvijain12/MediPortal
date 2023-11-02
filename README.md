@@ -1,37 +1,48 @@
-# Patient Registration
+# MediPortal: Patient Registration System
 
-This is an implementation of a patient registration system, which consists of two classes: `Patient` and `HospitalManager`. The `Patient` class represents a patient with a name and a status (Normal, Urgent, or Super Urgent). The `HospitalManager` class manages a list of patients, separated by specializations, with methods to add/remove patients, get the next patient, and get printable information about patients. The `FrontendManager` class is the frontend for interacting with the user, presenting a menu and calling the appropriate methods from the `HospitalManager` class.
+Welcome to the **MediPortal** repository, a patient registration system designed to streamline the process of managing patient information within a hospital environment. This system consists of two core classes: `Patient` and `HospitalManager`, as well as a user-friendly frontend managed by the `FrontendManager`. Patients are categorized by their status (Normal, Urgent, or Super Urgent) for efficient hospital management.
 
-The project was built using Python programming language.
+## Running the Project
 
-## How to run the project
+To run this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/charvijain12/Hospital-Management.git`
+1. Clone the repository:
+   ```
+   git clone https://github.com/charvijain12/MediPortal.git
+   ```
 
-2. Navigate to the project directory: `cd Hospital-Management`
+2. Navigate to the project directory:
+   ```
+   cd MediPortal
+   ```
 
-3. Run the command: `python frontend.py`
+3. Run the command:
+   ```
+   python frontend.py
+   ```
 
 4. The program will start running, and the user will be prompted with the main menu options.
 
-
 ## Features
-1. Add a new patient to the hospital
 
-2. Remove a patient from the hospital
+- **Add a Patient**: Easily add a new patient to the hospital's registration system.
 
-3. Get the next patient from the hospital's waiting list
+- **Remove a Patient**: Efficiently remove a patient from the hospital's records.
 
-4. View a list of all patients currently in the hospital, sorted by specialization
+- **Get the Next Patient**: Retrieve the next patient from the hospital's waiting list based on their priority level.
 
-5. View a list of all patients currently waiting to be seen, sorted by priority level
-
+- **View Patient Lists**: Access lists of all patients currently in the hospital, sorted by their specialization or waiting list priority level.
 
 ## Technologies Used
-Python 3
+
+- Python 3: This project was developed using the Python programming language.
 
 ## Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions or feedback
+
+Contributions are welcome! If you have suggestions or feedback, please feel free to submit a pull request or open an issue.
 
 ## License
-This project is licensed under the `MIT License` - see the LICENSE file for details.
+
+This project is licensed under the `MIT License`. For more details regarding the project's license, please refer to the LICENSE file in this repository.
+
+We hope you find **MediPortal** valuable for managing patient registration within a hospital setting. If you have any questions or require further assistance, please don't hesitate to contact us.
