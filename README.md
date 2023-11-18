@@ -1,8 +1,9 @@
-# MediPortal: Patient Registration System
 
-Welcome to the **MediPortal** repository, a patient registration system designed to streamline the process of managing patient information within a hospital environment. This system consists of two core classes: `Patient` and `HospitalManager`, as well as a user-friendly frontend managed by the `FrontendManager`. Patients are categorized by their status (Normal, Urgent, or Super Urgent) for efficient hospital management.
+# MediPortal: Patient Registration System 🏥
 
-## Running the Project
+Welcome to the **MediPortal** repository, a patient registration system designed to streamline the process of managing patient information within a hospital environment. This system consists of two core classes: `Patient` and `HospitalManager`, as well as a user-friendly frontend managed by the `FrontendManager`. Patients are categorized by their status (Normal, Urgent, or Super Urgent) for efficient hospital management. 🩺💻
+
+## Running the Project 🚀
 
 To run this project, follow these steps:
 
@@ -21,9 +22,9 @@ To run this project, follow these steps:
    python frontend.py
    ```
 
-4. The program will start running, and the user will be prompted with the main menu options.
+4. The program will start running, and the user will be prompted with the main menu options. 📋👨‍⚕️
 
-## Features
+## Features ✨
 
 - **Add a Patient**: Easily add a new patient to the hospital's registration system.
 
@@ -33,16 +34,16 @@ To run this project, follow these steps:
 
 - **View Patient Lists**: Access lists of all patients currently in the hospital, sorted by their specialization or waiting list priority level.
 
-## Technologies Used
+## Technologies Used 🛠️
 
 - Python 3: This project was developed using the Python programming language.
 
-## Contributing
+## Contributing 🤝
 
-Contributions are welcome! If you have suggestions or feedback, please feel free to submit a pull request or open an issue.
+Contributions are welcome! If you have suggestions or feedback, please feel free to submit a pull request or open an issue. 🌟
 
-## License
+## License 📄
 
-This project is licensed under the `MIT License`. For more details regarding the project's license, please refer to the LICENSE file in this repository.
+This project is licensed under the `MIT License`. For more details regarding the project's license, please refer to the LICENSE file in this repository. 🔐
 
-We hope you find **MediPortal** valuable for managing patient registration within a hospital setting. If you have any questions or require further assistance, please don't hesitate to contact us.
+We hope you find **MediPortal** valuable for managing patient registration within a hospital setting. If you have any questions or require further assistance, please don't hesitate to contact us. 🙌
